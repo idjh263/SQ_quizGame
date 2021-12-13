@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Squid Game Trivia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Play:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/cs/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="mainBox">
+        <h1>Squid Game</h1>
+        <span id="timerArea"></span>
+      </header>
+      <section id="questionsContainer" class="hide">
+        <div id="question"></div>
+        <div id="answers" class="buttonArea"></div>
+      </section>
+      <section class="prize">
+        <div id="prizeText" class="hide"></div>
+      </section>
+      <section class="controls">
+        <button class="start" id="startButton">START</button>
+        <button class="btn" id="showScoresButton">High Scores</button>
+        <audio controls id="dollSing">
+          <source src=".//assets/audio/dollSong.mp3" type="audio/mpeg">
+        </audio>
+        <br />
+        <div id="prizeText" class="hide">
+          <span id="prizeDisplay"></span>
+          <input type="text" name="initials" id="initials" />
+          <button id="submitScore" class="submit">Submit Score</button>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

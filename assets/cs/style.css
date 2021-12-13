@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/sq1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-family: Righteous;
+    font-size: 60px;
+  }
+  h3 {
+    margin: 10px 0px;
+  }
+  
+  .mainBox {
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 60%; */
+    max-width: 90%;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  .buttonArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: Play;
+    font-size: 20px;
+    width: 100%; 
+  }
+  button {
+    border: 1px solid grey;
+    background-color: #0e2939;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    font-family: Play;
+  }
+  
+  button:hover {
+    border-color: red;
+  }
+  
+  .start {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    color: yellow;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .scoresList {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  
+  #highScoresList {
+    margin: 10px 0;
+  }
+  
+  #prizeText {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+  
+  #init {
+    margin-top: 10px;
+  }
+  #initials {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  #save-btn {
+    margin: 10px;
+  }
+  #showScoresButton {
+    padding: 10px;
+    margin: 10px;
+  }
+  #question {
+    font-size: 25px;
+    font-family: Chakra Petch;
+  }
+ 
