@@ -10,6 +10,7 @@
  - JAVASCRIPT 
 
  ##Website: 
+  https://idjh263.github.io/SQ_quizGame/
 
 Made by Irene H 🤪 with the help TA's, instructor @Trilogy,  Web Dev Simplified, DanDukes, and GOOGLE. 
 
